@@ -1,0 +1,325 @@
+/*  <600px, <960 for tablet, <1280 dextop */
+/*  <600px, <960 for tablet, <1280 dextop */
+
+@media screen and (min-width:576px) {
+
+    .background{
+        width: 100%;
+        background-attachment: fixed;
+        background-position-x: center;
+    }
+
+    .navigation{
+        flex-wrap: wrap;
+    }
+    .navigation .name{
+        width: 100%;
+        background-color: lightgrey;
+    }
+    .navigation .menu {
+        width: 100%;
+        background-color: aquamarine;
+    }
+    .navigation .menu ul li{
+        padding-left: 20px;
+        font-size: 15px;
+        font-weight: 800;
+        letter-spacing: 1px;
+    }
+    .container h1{
+        font-size: 60px;
+        color: blue;
+    }
+    .container button{
+        margin-top: 80px;
+    }
+
+    .about .left{
+        width: 100%;
+        padding: 10px 50px;}
+    .about .right{
+        width: 0;
+    }
+    .info .headline h1{
+        text-align: center;
+        padding-left: 0;
+    }
+    .info .service_card{
+        flex-wrap: wrap;
+    }
+    .info .more button{
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
+    .footer{
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .footer .address{
+        width: 100%;
+        padding: 50px;
+        text-align: center;
+    }
+    .footer .quary{
+        width: 100%;
+        padding: 50px;
+    }
+    .footer .quary form table input{
+        width: 400px;
+    }
+    .footer .quary form table textarea{
+        width: 400px;
+    }
+    .footer .quary form button{
+        margin-left: 160px;
+    }
+}
+
+/* ............for 500 px is ends here !!!............ */
+
+
+@media screen and (min-width:768px) {
+
+    .background{
+        width: 100%;
+        background-attachment: fixed;
+        background-position-x: center;
+    }
+    .navigation{
+        flex-wrap: wrap;
+    }
+    .navigation .name{
+        width: 100%;
+        background-color: lightblue;
+    }
+    .navigation .menu {
+        width: 100%;
+        background-color: lightpink;
+    }
+    .navigation .menu ul li{
+        padding-left: 30px;
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .container h1{
+        font-size: 75px;
+        color: darkgoldenrod;
+    }
+    .container button{
+        margin-top: 120px;
+    }
+
+    .about{
+        flex-wrap: wrap;
+    }
+    .about .left{
+        width: 100%;
+        height: auto;
+        padding: 80px 80px;
+        line-height: 80px;
+    }
+    .about .right{
+        width: 0;
+    }
+    .about .left button{
+        margin-top: 50px;
+    }
+    .info .headline h1{
+        text-align: center;
+        padding-left: 0;
+    }
+    .info .service_card{
+        flex-wrap: wrap;
+    }
+    .info .more button{
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
+    
+    .footer .address{
+        width: 100%;
+        /* height: auto; */
+        padding: 50px;
+        text-align: center;
+    }
+    .footer .quary{
+        width: 100%;
+        /* height: auto; */
+        padding-left: 170px;
+    }
+    .footer .quary form table input{
+        width: 400px;
+    }
+    .footer .quary form table textarea{
+        width: 400px;
+    }
+    .footer .quary form button{
+        margin-left: 160px;
+    }
+}
+/* ......Media Q 768 px ENDS Here!!!..... */
+
+
+@media screen and (min-width:992px) {
+
+    .background{
+        width: 100%;
+        background-attachment: fixed;
+        background-position-x: center;
+    }
+    .navigation{
+        flex-wrap: wrap;
+    }
+    .navigation .name{
+        width: 100%;
+        background-color: lightblue;
+    }
+    .navigation .menu {
+        width: 100%;
+        background-color: lightpink;
+    }
+    .navigation .menu ul li{
+        padding-left: 60px;
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .container h1{
+        font-size: 75px;
+        color: rebeccapurple;
+    }
+    .container button{
+        margin-top: 120px;
+    }
+
+    .about{
+        flex-wrap: wrap;
+    }
+    .about .left{
+        width: 80%;
+        height: auto;
+        padding: 80px 80px;
+        line-height: 80px;
+    }
+    .about .right{
+        width: 20%;
+    }
+    .about .left button{
+        margin-top: 50px;
+    }
+    .info .headline h1{
+        text-align: center;
+        padding-left: 0;
+    }
+    .info .service_card{
+        flex-wrap: wrap;
+    }
+    .info .more button{
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
+    .footer .address{
+        width: 50%;
+        padding: 50px;
+        text-align: center;
+    }
+    .footer .quary{
+        width: 50%;
+        padding-left: 30px;
+    }
+    .footer .quary form table input{
+        width: 400px;
+    }
+    .footer .quary form table textarea{
+        width: 400px;
+    }
+    .footer .quary form button{
+        margin-left: 160px;
+    }
+    
+}
+
+
+
+
+@media screen and (min-width:1520px) {
+
+    .background{
+        width: 100%;
+        background-attachment: fixed;
+        background-position-x: center;
+    }
+    .navigation{
+        flex-wrap: wrap;
+    }
+    .navigation .name{
+        width: 40%;
+        background-color: lightblue;
+    }
+    .navigation .menu {
+        width: 60%;
+        background-color: lightpink;
+    }
+    .navigation .menu ul li{
+        padding-left: 30px;
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .container h1{
+        font-size: 75px;
+        color: rebeccapurple;
+    }
+    .container button{
+        margin-top: 120px;
+    }
+
+    .about{
+        flex-wrap: wrap;
+    }
+    .about .left{
+        width: 50%;
+        height: auto;
+        padding: 80px 80px;
+        line-height: 80px;
+    }
+    .about .right{
+        width: 50%;
+    }
+    .about .left button{
+        margin-top: 50px;
+    }
+    .info .headline h1{
+        text-align: center;
+        padding-left: 0;
+    }
+    .info .service_card{
+        flex-wrap: wrap;
+    }
+    .info .more button{
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
+    .footer .address{
+        width: 50%;
+        padding: 50px;
+        text-align: center;
+    }
+    .footer .quary{
+        width: 50%;
+        padding-left: 80px;
+    }
+    .footer .quary form table input{
+        width: 400px;
+    }
+    .footer .quary form table textarea{
+        width: 400px;
+    }
+    .footer .quary form button{
+        margin-left: 160px;
+    }
+    
+}
+
+/* ...............Media Q for 1200px Ends Here !!!......... */
+
+
+

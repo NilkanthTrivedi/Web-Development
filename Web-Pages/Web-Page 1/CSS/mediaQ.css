@@ -1,0 +1,670 @@
+/*            MIN-WIDTH-----500PX           */
+@media only screen and (min-width: 500px) {
+
+.navbar{
+    height: auto;
+    flex-wrap: wrap;
+    background: black;
+}
+.navbar .logo{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.navbar .menu{
+    width: 100%;
+    height: auto;
+}
+.navbar .menu{
+    padding-left: 0px;
+}
+.navbar .menu ul li button{
+    padding: 40px 8px;
+}
+.navbar .menu ul li button a{
+    font-size: 12px;
+}
+.navbar .social{
+    display: none;
+}
+
+/* .....NAVBAR ENDS HERE !!!..... */
+
+.container{
+    height: auto;
+    padding-top: 300px;
+}
+.container h1{
+    font-size: 55px;
+    letter-spacing: 5px;
+}
+.container h2{
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+.container img{
+    width: 120px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+/* ......Container Ends Here!!!............ */
+
+.department{
+    height: auto;
+    flex-wrap: wrap;
+}
+.department .dept{
+    height: auto;
+    padding: 20px;
+}
+
+/* ........Department Ends Here!!!....... */
+
+.projects{
+    height: auto;
+    padding-top: 30px;
+}
+.projects h1{
+    font-size: 36px;
+}
+.projects .p2{
+    font-size: 14px;
+    margin-top: 0px;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+.projects .proj_card{
+    flex-wrap: wrap;
+    height: auto;
+}
+.projects .proj_card .proj{
+    width: 50%;
+}
+.projects .proj_card .proj:nth-child(3){
+    width: 100%;
+    height: auto;
+}
+.other{
+    flex-wrap: wrap;
+    height: auto;
+    gap: 5px;
+}
+.other .view1{
+    margin-top: 20px;
+    border: 3px solid #0fbcf5;
+    border-radius: 10px;
+}
+.other .view2{
+    border: 3px solid #0fbcf5;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+/* .......Projects Ends HERE!!!........... */
+
+.about-us{
+    height: auto;
+    flex-wrap: wrap;
+}
+.about-us .our-skill{
+    width: 100%;
+    height: auto;
+}
+.about-us .our-skill .special .brands{
+    width: 150px;
+    height: 120px;
+}
+/* ..............About-Us Ends Here !!!....... */
+.footer_card{
+    height: auto;
+    padding: 50px;
+}
+.footer_card .footer{
+    flex-wrap: wrap;
+    height: auto;
+}
+.footer_card .footer .info{
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    padding: 20px 10px;
+}
+.footer_card .support{
+    flex-wrap: wrap;
+}
+.footer_card .support .left{
+    width: 100%;
+    height: auto;
+    padding: 0;
+}
+.footer_card .support .right{
+    width: 100%;
+    height: auto;
+    text-align: left;
+}
+/* .........Footer Card Ends Here........... */
+
+}
+
+
+
+
+
+/*           MIN-WIDTH-----768PX          */
+
+
+@media only screen and (min-width: 768px) {
+
+    .navbar{
+        height: auto;
+        flex-wrap: wrap;
+        background: black;
+    }
+    .navbar .logo{
+        width: 20%;
+        height: auto;
+        text-align: center;
+        padding-top: 40px;
+    }
+    .navbar .menu{
+        width: 80%;
+        height: auto;
+    }
+    .navbar .menu{
+        padding-left: 50px;
+    }
+    .navbar .menu ul li button{
+        padding: 50px 8px;
+    }
+    .navbar .menu ul li button a{
+        font-size: 14px;
+    }
+    .navbar .social{
+        display: none;
+    }
+    
+    /* .....NAVBAR ENDS HERE !!!..... */
+    
+    .container{
+        height: auto;
+        padding-top: 200px;
+    }
+    .container h1{
+        font-size: 65px;
+        letter-spacing: 5px;
+    }
+    .container h2{
+        font-size: 40px;
+        letter-spacing: 1px;
+        margin-top: 20px;
+    }
+    .container img{
+        width: 120px;
+        height: 50px;
+        margin-bottom: 50px;
+    }
+    
+    /* ......Container Ends Here!!!............ */
+    
+    .department{
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .department .dept{
+        height: auto;
+        padding: 40px;
+    }
+    
+    /* ........Department Ends Here!!!....... */
+    
+    .projects{
+        height: auto;
+        padding-top: 30px;
+    }
+    .projects h1{
+        font-size: 40px;
+    }
+    .projects .p2{
+        font-size: 16px;
+        margin-top: 0px;
+        line-height: 28px;
+        letter-spacing: 1px;
+    }
+    .projects .proj_card{
+        flex-wrap: wrap;
+        height: auto;
+        justify-content: space-evenly;
+    }
+    .projects .proj_card .proj{
+        width: 33%;
+    }
+    .projects .proj_card .proj:nth-child(3){
+        width: 33%;
+    }
+
+    .other{
+        height: auto;
+        flex-wrap: nowrap;
+        padding: 50px;
+        justify-content: baseline;
+    }
+    .other .view1{
+        margin-top: 0px;
+    }
+    .other .view2{
+        margin-top: 20px;
+    }
+    /* .......Projects Ends HERE!!!........... */
+    
+    .about-us{
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .about-us .our-skill{
+        width: 100%;
+        height: auto;
+    }
+    .about-us .our-skill .special{
+        height: auto;
+        justify-content: center;
+        gap: 50px;
+    }
+    .about-us .our-skill .special .brands{
+        width: 150px;
+        height: 120px;
+    }
+    /* ..............About-Us Ends Here !!!....... */
+    .footer_card{
+        height: auto;
+        padding: 50px;
+    }
+    .footer_card .footer{
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .footer_card .footer .info{
+        flex-wrap: nowrap;
+        width: 50%;
+        height: auto;
+        padding: 20px 10px;
+    }
+    .footer_card .footer .info:nth-child(3){
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        margin-bottom: -200px;
+    }
+    .footer_card .support{
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .footer_card .support .left{
+        width: 45%;
+        height: auto;
+    }
+    .footer_card .support .right{
+        width: 55%;
+        height: auto;
+        text-align: left;
+        padding-left: 40px;
+    }
+    .footer_card .support .right ul li{
+        padding-right: 5px;
+    }
+    /* .........Footer Card Ends Here........... */
+    
+    }
+
+
+
+
+
+
+
+
+/*           MIN-WIDTH-----992PX          */
+
+
+@media only screen and (min-width: 992px) {
+
+    .navbar{
+        height: auto;
+        flex-wrap: wrap;
+        background-color: #06283D;
+    }
+    .navbar .logo{
+        width: 15%;
+        height: auto;
+    }
+    .navbar .menu{
+        width: 70%;
+        height: auto;
+    }
+    .navbar .menu{
+        padding-left: 50px;
+    }
+    .navbar .menu ul li button{
+        padding: 50px 8px;
+    }
+    .navbar .menu ul li button a{
+        font-size: 16px;
+    }
+    .navbar .social{
+        width: 15%;
+        display: block;
+        padding-top: 10px;
+    }
+    
+    /* .....NAVBAR ENDS HERE !!!..... */
+    
+    .department{
+        height: auto;
+        flex-wrap: wrap;
+        padding-top: 50px;
+    }
+    .department .dept{
+        width: 25%;
+        height: auto;
+        padding: 30px; 
+    }
+    .department .dept h3{
+        font-size: 22px;
+        font-weight: 500;
+        letter-spacing: 0px;
+    }
+    .department .dept p{
+        font-size: 16px;
+        margin-top: 20px;
+        line-height: 24px;
+    }
+    
+    /* ........Department Ends Here!!!....... */
+    
+    .projects .proj_card .proj{
+        width: 20%;
+    }
+    .projects .proj_card .proj:nth-child(3){
+        width: 20%;
+    }
+    /* .......Projects Ends HERE!!!........... */
+    
+    .about-us{
+        height: auto;
+    }
+    .about-us .our-skill{
+        width: 50%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+    .about-us .our-skill .special{
+        height: auto;
+        justify-content: center;
+        gap: 30px;
+    }
+    .about-us .our-skill .special .brands{
+        width: 120px;
+        height: 120px;
+    }
+    /* ..............About-Us Ends Here !!!....... */
+    .footer_card{
+        height: auto;
+        padding: 50px;
+    }
+    .footer_card .footer{
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .footer_card .footer .info{
+        flex-wrap: nowrap;
+        width: 50%;
+        height: auto;
+        padding: 20px 10px;
+    }
+    .footer_card .footer .info:nth-child(3){
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        margin-bottom: -200px;
+    }
+    .footer_card .support{
+        height: auto;
+        flex-wrap: wrap;
+        line-height: 0px;
+    }
+    .footer_card .support .left{
+        width: 50%;
+        height: auto;
+        padding: 0px;
+        font-size: 16px;
+    }
+    .footer_card .support .right{
+        width: 50%;
+        height: auto;
+        text-align: right;
+    }
+    .footer_card .support .right ul li{
+        padding-right: 20px;
+    }
+    /* .........Footer Card Ends Here........... */
+    
+    }
+
+
+
+
+/*           MIN-WIDTH-----1200PX          */
+
+@media only screen and (min-width: 1200px)
+{
+    .navbar{
+        height: auto;
+        flex-wrap: wrap;
+        background-color: #06283D;
+    }
+    .navbar .logo{
+        width: 20%;
+        height: auto;
+    }
+    .navbar .menu{
+        width: 60%;
+        height: auto;
+    }
+    .navbar .menu{
+        padding-left: 40px;
+    }
+    .navbar .menu ul li button{
+        padding: 50px 12px;
+    }
+    .navbar .menu ul li button a{
+        font-size: 18px;
+    }
+    .navbar .social{
+        width: 20%;
+        display: block;
+        padding-top: 10px;
+    }
+    
+    /* .....NAVBAR ENDS HERE !!!..... */
+    .container h1{
+        font-size: 92px;
+        letter-spacing: 5px;
+    }
+    .container h2{
+        color: white;
+        font-size: 60px;
+    }
+    .container img{
+        margin-top: 50px;
+        width: 200px;
+        height: 70px;
+    }
+
+    /* ......Container Ends Here!!!............ */
+    
+    .projects .proj_card .proj{
+        width: 20%;
+    }
+    .projects .proj_card .proj:nth-child(3){
+        width: 20%;
+    }
+    /* .......Projects Ends HERE!!!........... */
+
+    .footer_card{
+        height: auto;
+        padding: 50px;
+    }
+    .footer_card .footer{
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .footer_card .footer .info{
+        flex-wrap: nowrap;
+        width: 30%;
+        height: auto;
+        padding: 20px 10px;
+    }
+    .footer_card .footer .info:nth-child(3){
+        width: 30%;
+        height: auto;
+        padding: 20px;
+        margin-bottom: 0px;
+    }
+    .footer_card .support{
+        height: auto;
+        flex-wrap: wrap;
+        line-height: 0px;
+    }
+    .footer_card .support .left{
+        width: 50%;
+        height: auto;
+        padding: 0px;
+        font-size: 16px;
+    }
+    .footer_card .support .right{
+        width: 50%;
+        height: auto;
+        text-align: right;
+    }
+    .footer_card .support .right ul li{
+        padding-right: 30px;
+    }
+    /* .........Footer Card Ends Here........... */
+    
+}
+
+/*               MIN-WIDTH----1536PX             */
+
+
+@media only screen and (min-width: 1536px) {
+    .navbar{
+        height: auto;
+        flex-wrap: wrap;
+        background-color: #06283D;
+    }
+    .navbar .logo{
+        width: 20%;
+        height: auto;
+    }
+    .navbar .menu{
+        width: 60%;
+        height: auto;
+    }
+    .navbar .menu{
+        padding-left: 40px;
+    }
+    .navbar .menu ul li button{
+        padding: 50px 12px;
+    }
+    .navbar .menu ul li button a{
+        font-size: 18px;
+    }
+    .navbar .social{
+        width: 20%;
+        display: block;
+        padding-top: 10px;
+    }
+    
+    /* .....NAVBAR ENDS HERE !!!..... */
+    .container h1{
+        font-size: 92px;
+        letter-spacing: 5px;
+    }
+    .container h2{
+        color: white;
+        font-size: 60px;
+    }
+    .container img{
+        margin-top: 50px;
+        width: 200px;
+        height: 70px;
+    }
+
+    /* ......Container Ends Here!!!............ */
+    
+    .projects .proj_card .proj{
+        width: 20%;
+    }
+    .projects .proj_card .proj:nth-child(3){
+        width: 20%;
+    }
+    /* .......Projects Ends HERE!!!........... */
+    .about-us{
+        padding: 50px 60px;
+    }
+    .about-us .our-skill .special .brands{
+        width: 185px;
+        height: 140px;
+    }
+
+
+    /* ...............About-Us Ends Here !!!......... */
+
+    .footer_card{
+        height: auto;
+        padding: 50px;
+    }
+    .footer_card .footer{
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .footer_card .footer .info{
+        flex-wrap: nowrap;
+        width: 30%;
+        height: auto;
+        padding: 20px 10px;
+    }
+    .footer_card .footer .info:nth-child(3){
+        width: 30%;
+        height: auto;
+        padding: 20px;
+        margin-bottom: 0px;
+    }
+    .footer_card .support{
+        height: auto;
+        flex-wrap: wrap;
+        line-height: 0px;
+    }
+    .footer_card .support .left{
+        width: 50%;
+        height: auto;
+        padding: 0px;
+    }
+    .footer_card .support .left a{
+        font-size: 14px;
+    }
+    .footer_card .support .right{
+        width: 50%;
+        height: auto;
+        text-align: right;
+    }
+    .footer_card .support .right ul li{
+        padding-right: 50px;
+    }
+    .footer_card .support .right ul li a{
+        font-size: 14px;
+    }
+    /* .........Footer Card Ends Here........... */
+    
+}
+    

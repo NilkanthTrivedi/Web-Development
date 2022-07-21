@@ -1,0 +1,1163 @@
+/* @@@@.....MEDIA QUERY 500PX...@@@@ */
+
+@media only screen and (min-width:500px) {
+   .nav_bar{
+       width: 100%;
+       background-color: pink;
+       flex-wrap: wrap;
+   }
+   .nav_bar .logo{
+       width: 100%;
+       text-align: center;
+   }
+   .nav_bar .menu{
+       width: 100%;
+       position: relative;
+   }
+   .nav_bar .menu ul li{
+       padding-left: 8px;
+       font-size: 8px;
+       font-weight: 100;
+   }
+   .nav_bar .menu ul i{
+       position: absolute;
+       top: 45%;
+       right: 3%;
+   }
+/* .....NAVBAR ENDS HERE.... */
+
+.about_card{
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    background: linear-gradient(45deg,rgb(222, 179, 126),rgb(144, 141, 137));
+    padding-left: 30px;
+}
+.about_card h1{
+    font-size: 34px;
+}
+.about_card h3{
+    font-size: 18px;
+}
+.about_card button{
+    font-size: 14px;
+}
+.about_card p{
+    color: darkolivegreen;
+    font-weight: 600;
+}
+/* ......................ABOUT_CARD ENDS HERE.................. */
+.programs{
+    margin: 0;
+    height: auto;
+}
+.programs h1{
+    margin: 0;
+    font-size: 34px;
+}
+.programs p{
+    font-size: 16px;
+}
+.programs .various_programs{
+    flex-wrap: wrap;
+    height: auto;
+}
+.programs .various_programs .treks{
+    height: auto;
+}
+.programs button{
+    margin: 50px;
+    font-size: 16px;
+}
+
+/* ..................PROGRAMS ENDS HERE  !!!................ */
+
+/* .....Sceme_Card Starts Here!!!...... */
+.sceme_card{
+    flex-wrap: wrap;
+    height: auto;
+}
+.sceme_card .grp_img{
+    width: 100%;
+    height: 60%;
+}
+.sceme_card .grp_img img{
+    width: 100%;
+}
+.sceme_card .offer_1{
+    width: 100%;
+    height: fit-content;
+    padding: 50px;
+    text-align: center;
+}
+.sceme_card .offer_1 h1{
+    font-size: 24px;
+}
+.sceme_card .offer_1 p{
+    font-size: 18px;
+    padding: 0;
+}
+
+/* ......Sceme_Card Ends Here !!!....... */
+
+/* .....About Hiking starts Here!!!..... */
+
+.about_hiking{
+    display: none;
+}
+/* .....about hiking ends here.... */
+
+.explore{
+    margin-top: 20px;
+    width: 100%;
+    height: 200px;
+    padding-top: 80px;
+    padding-right: 50px;
+    background-size: 100% 150%;
+    background-position: 0 -70px;
+}
+.explore h1{
+    margin: 0;
+    font-size: 20px;
+}
+.explore h1 span{
+    font-size: 23px;
+}
+
+/* .....Explore Ends Here !!!.... */
+
+overview{
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+.overview .more_about{
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    text-align: center;
+}
+.overview .more_about .paragraph{
+    width: 100%;
+    height: auto;
+}
+.abstract{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.abstract h1 {
+    margin: 0;
+    font-size: 30px;
+}
+.abstract p{
+    padding: 10px;
+    font-size: 12px;
+}
+.abstract h2{
+    font-size: 16px;
+}
+
+/* ...............OVERVIEW ENDS HERE !!!..................... */
+
+.form{
+    width: 100%;
+    height: auto;
+    background: lightgrey;
+    padding: 50px 50px;
+    text-align: center;
+}
+.form h1{
+    margin: 0;
+    margin-top: 10px;
+    font-size: 46px;
+    color: white;
+}
+.form p{
+    margin: 0;
+    margin-top: 30px;
+    font-size: 18px;
+    padding: 10px;
+}
+.form input{
+    width: 300px;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 20px;
+    border: none;
+}
+.form button{
+    margin: auto;
+    margin-top: 20px;
+    background-color: #54524f;
+    border: none;
+    color: white;
+    font-size: 14px;
+    padding: 8px 30px;
+    border-radius: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+/* .................FORMS ENDS HERE !!!.............. */
+
+.footer_card{
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+}
+.footer_card .social_links{
+    width: 100%;
+}
+.footer_card .contact_links{
+    width: 50%;
+    height: auto;
+    padding: 10px 30px;
+    padding-bottom: 50px;
+}
+.footer_card .contact_links ul li{
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.footer_card .contact_links h3, .social_links h3{
+    font-size: 26px;
+}
+
+/* .................FOOTER_CARD ENDS HERE !!!.................... */
+
+}
+/* @@@@.....MEDIA QUERY 500PX ENDS...@@@@ */
+
+
+
+/* @@@@.....MEDIA QUERY 736PX...@@@@ */
+
+
+@media only screen and (min-width:736px) {
+    .nav_bar{
+        width: 100%;
+        background-color: #ffffff;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .nav_bar .logo{
+        width: 20%;
+        padding: 25px;
+    }
+    .nav_bar .logo img{
+        width: 70px;
+        height: 70px;
+    }
+    .nav_bar .menu{
+        width: 80%;
+        position: relative;
+    }
+    .nav_bar .menu ul li{
+        padding-left: 25px;
+        font-size: 15px;
+        font-weight: 100;
+    }
+    .nav_bar .menu ul li a{
+        letter-spacing: 1px;
+    }
+    .nav_bar .menu ul i{
+        position: absolute;
+        top: 43%;
+        right: 10%;
+    }
+ /* .....NAVBAR ENDS HERE.... */
+ 
+ .about_card{
+     margin-top: 0;
+     width: 100%;
+     background: url("../images/bg1.png");
+     background-size: 100% 100%;
+     padding: 20px;
+ }
+ .about_card h1{
+     margin: 0;
+     margin-top: 0px;
+     font-size: 34px;
+ }
+ .about_card h3{
+     font-size: 18px;
+ }
+ .about_card button{
+     font-size: 14px;
+ }
+ .about_card p{
+     color: darkolivegreen;
+     font-weight: 600;
+ }
+ /* ......................ABOUT_CARD ENDS HERE.................. */
+ .programs{
+     margin: 0;
+     height: auto;
+     padding-top: 10px;
+ }
+ .programs h1{
+     margin: 0;
+     font-size: 34px;
+ }
+ .programs p{
+    margin-top: 20px;
+     font-size: 16px;
+ }
+ .programs .various_programs .treks .trek_img{
+     margin-top: 40px;
+ }
+ .programs button{
+     margin: 50px;
+     font-size: 16px;
+ }
+ 
+ /* ..................PROGRAMS ENDS HERE  !!!................ */
+ 
+ /* .....Sceme_Card Starts Here!!!...... */
+ .sceme_card{
+     width: 100%;
+     display: flex;
+     height: auto;
+ }
+ .sceme_card .grp_img{
+     width: 50%;
+     height: auto;
+ }
+ .sceme_card .grp_img img{
+     width: 100%;
+ }
+ .sceme_card .offer_1{
+     width: 50%;
+     padding: 50px;
+     text-align: center;
+ }
+ .sceme_card .offer_1 h1{
+     font-size: 24px;
+ }
+ .sceme_card .offer_1 p{
+     font-size: 18px;
+     padding: 0;
+ }
+ .sceme_card .offer_1 button{
+     font-size: 18px;
+     letter-spacing: 1px;
+ }
+ 
+ /* ......Sceme_Card Ends Here !!!....... */
+ 
+ /* .....About Hiking starts Here!!!..... */
+ 
+ .about_hiking{
+     display: block;
+     width: 100%; 
+     height: auto;  
+     padding: 30px;
+ }
+ .about_hiking h1{
+     color: #333d42;
+     margin-top: 80px;
+     font-size: 40px;
+ }
+ .about_hiking p{
+     padding: 40px;
+ }
+ /* .....about hiking ends here.... */
+ 
+ .explore{
+     width: 100%;
+     height: 400px;
+     background-size: cover;
+ }
+ .explore h1{
+     margin: 0;
+     margin-top: 80px;
+     font-size: 32px;
+ }
+ .explore h1 span{
+     font-size: 36px;
+ }
+ 
+ /* .....Explore Ends Here !!!.... */
+ 
+ overview{
+     width: 100%;
+     background-color: white;
+ }
+ .overview .more_about{
+     width: 100%;
+     height: auto;
+     flex-wrap: nowrap;
+     padding-top: 10px;
+     text-align: center;
+ }
+ .overview .more_about .paragraph{
+     width: 100%;
+     height: auto;
+ }
+ .abstract{
+     width: 100%;
+     height: auto;
+     text-align: center;
+ }
+ .abstract h1 {
+     margin: 0;
+     font-size: 40px;
+ }
+ .abstract p{
+     padding: 10px;
+     font-size: 16px;
+ }
+ .abstract h2{
+     font-size: 22px;
+     padding-bottom: 60px;
+ }
+ 
+ /* ...............OVERVIEW ENDS HERE !!!..................... */
+ 
+ .form{
+     width: 100%;
+     height: auto;
+     background: lightgrey;
+     padding: 50px 50px;
+     text-align: center;
+ }
+ .form h1{
+     margin: 0;
+     margin-top: 10px;
+     font-size: 46px;
+     color: white;
+ }
+ .form p{
+     margin: 0;
+     margin-top: 30px;
+     font-size: 18px;
+     padding: 10px;
+ }
+ .form input{
+     width: 300px;
+     font-size: 14px;
+     padding: 8px 20px;
+     border-radius: 20px;
+     border: none;
+ }
+ .form button{
+     margin: auto;
+     margin-left: -40px;
+     margin-top: 20px;
+     background-color: #54524f;
+     border: none;
+     color: white;
+     font-size: 14px;
+     padding: 8px 20px;
+     border-radius: 20px;
+     font-weight: 600;
+     letter-spacing: 1px;
+ }
+ /* .................FORMS ENDS HERE !!!.............. */
+ 
+ .footer_card{
+     width: 100%;
+     height: auto;
+     flex-wrap: wrap;
+ }
+ .footer_card .social_links{
+     width: 100%;
+    padding: 30px;
+    padding-left: 70px;
+ }
+ .footer_card .social_links .social_logos{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+ .footer_card .contact_links{
+     width: 30%;
+     height: auto;
+     padding: 10px 70px;
+     padding-bottom: 50px;
+ }
+ .footer_card .contact_links ul li{
+     list-style: none;
+     font-size: 18px;
+     line-height: 1.5;
+ }
+ .footer_card .contact_links h3, .social_links h3{
+     font-size: 26px;
+ }
+ 
+ /* .................FOOTER_CARD ENDS HERE !!!.................... */
+ 
+ }
+ 
+
+
+/* @@@@.....MEDIA QUERY 736PX ENDS...@@@@ */
+
+
+
+
+/* @@@@.....MEDIA QUERY 936PX...@@@@ */
+
+@media only screen and (min-width:736px) {
+    .nav_bar .logo{
+        width: 20%;
+        padding: 25px;
+    }
+    .nav_bar .logo img{
+        width: 70px;
+        height: 70px;
+    }
+    .nav_bar .menu{
+        width: 80%;
+        position: relative;
+    }
+    .nav_bar .menu ul li{
+        padding-left: 40px;
+        font-size: 15px;
+        font-weight: 100;
+    }
+    .nav_bar .menu ul li a{
+        letter-spacing: 1px;
+    }
+    .nav_bar .menu ul i{
+        position: absolute;
+        top: 43%;
+        right: 18%;
+    }
+ /* .....NAVBAR ENDS HERE.... */
+ 
+ .about_card{
+     margin-top: 0;
+     width: 100%;
+     background: url("../images/bg1.png");
+     background-size: 100% 100%;
+     padding-left: 70px;
+ }
+ .about_card h1{
+     margin: 0;
+     margin-top: 0px;
+     font-size: 34px;
+ }
+ .about_card h3{
+     font-size: 18px;
+ }
+ .about_card button{
+     font-size: 14px;
+ }
+ .about_card p{
+     color: darkolivegreen;
+     font-weight: 600;
+ }
+ /* ......................ABOUT_CARD ENDS HERE.................. */
+ 
+ /* ..................PROGRAMS ENDS HERE  !!!................ */
+ .sceme_card{
+     width: 100%;
+     display: flex;
+     height: auto;
+ }
+ .sceme_card .grp_img{
+     width: 50%;
+     height: auto;
+ }
+ .sceme_card .grp_img img{
+     width: 100%;
+ }
+ .sceme_card .offer_1{
+     width: 50%;
+     height: auto;
+     text-align: center;
+ }
+ .sceme_card .offer_1 h1{
+     font-size: 24px;
+ }
+ .sceme_card .offer_1 p{
+     font-size: 18px;
+     padding: 0;
+ }
+ .sceme_card .offer_1 button{
+     font-size: 18px;
+     letter-spacing: 1px;
+ }
+ 
+ /* ......Sceme_Card Ends Here !!!....... */
+ 
+ /* .....About Hiking starts Here!!!..... */
+ 
+ .about_hiking{
+     display: block;
+     width: 100%; 
+     height: auto;  
+     padding: 30px;
+ }
+ .about_hiking h1{
+     color: #333d42;
+     margin-top: 80px;
+     font-size: 40px;
+ }
+ .about_hiking p{
+     padding: 40px;
+ }
+ /* .....about hiking ends here.... */
+ 
+ .explore{
+     width: 100%;
+     height: 400px;
+     background-size: cover;
+ }
+ .explore h1{
+     margin: 0;
+     margin-top: 80px;
+     font-size: 32px;
+ }
+ .explore h1 span{
+     font-size: 36px;
+ }
+ 
+ /* .....Explore Ends Here !!!.... */
+ 
+ overview{
+     width: 100%;
+     background-color: white;
+ }
+ .overview .more_about{
+     width: 100%;
+     height: auto;
+     flex-wrap: nowrap;
+     padding-top: 10px;
+     text-align: center;
+ }
+ .overview .more_about .paragraph{
+     width: 100%;
+     height: auto;
+ }
+ .abstract{
+     width: 100%;
+     height: auto;
+     text-align: center;
+ }
+ .abstract h1 {
+     margin: 0;
+     font-size: 40px;
+ }
+ .abstract p{
+     padding: 10px;
+     font-size: 16px;
+ }
+ .abstract h2{
+     font-size: 22px;
+     padding-bottom: 60px;
+ }
+ 
+ /* ...............OVERVIEW ENDS HERE !!!..................... */
+ 
+ .form{
+     width: 100%;
+     height: auto;
+     background: lightgrey;
+     padding: 50px 50px;
+     text-align: center;
+ }
+ .form h1{
+     margin: 0;
+     margin-top: 10px;
+     font-size: 46px;
+     color: white;
+ }
+ .form p{
+     margin: 0;
+     margin-top: 30px;
+     font-size: 18px;
+     padding: 10px;
+ }
+ .form input{
+     width: 300px;
+     font-size: 14px;
+     padding: 8px 20px;
+     border-radius: 20px;
+     border: none;
+ }
+ .form button{
+     margin: auto;
+     margin-left: -40px;
+     margin-top: 20px;
+     background-color: #54524f;
+     border: none;
+     color: white;
+     font-size: 14px;
+     padding: 8px 20px;
+     border-radius: 20px;
+     font-weight: 600;
+     letter-spacing: 1px;
+ }
+ /* .................FORMS ENDS HERE !!!.............. */
+ 
+ .footer_card{
+     width: 100%;
+     height: auto;
+     flex-wrap: wrap;
+ }
+ .footer_card .social_links{
+     width: 100%;
+    padding: 30px;
+    padding-left: 70px;
+ }
+ .footer_card .social_links .social_logos{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+ .footer_card .contact_links{
+     width: 30%;
+     height: auto;
+     padding: 10px 70px;
+     padding-bottom: 50px;
+ }
+ .footer_card .contact_links ul li{
+     list-style: none;
+     font-size: 18px;
+     line-height: 1.5;
+ }
+ .footer_card .contact_links h3, .social_links h3{
+     font-size: 26px;
+ }
+ 
+ /* .................FOOTER_CARD ENDS HERE !!!.................... */
+ 
+ }
+ 
+ /* @@@@.....MEDIA QUERY 936PX ENDS...@@@@ */
+ 
+
+
+
+
+
+
+
+
+
+/* @@@@.....MEDIA QUERY 1500PX...@@@@ */
+
+@media only screen and (min-width:1500px) {
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        margin: 0;
+    }
+    .nav_bar{
+        width: 100%;
+        height: 120px;
+        background-color: #ffffff;
+        display: flex;
+    }
+    .nav_bar .logo{
+        width: 40%;
+        height: 120px;
+        padding: 10px 70px 10px 80px;
+    }
+    .nav_bar .logo img{
+        width: 90px;
+        height: 90px;
+    }
+    
+    .nav_bar .menu{
+        width: 60%;
+        height: 120px;
+        position: relative;
+    }
+    .nav_bar .menu ul{
+        margin: 0;
+        padding: 0;
+    }
+    .nav_bar .menu ul li{
+        list-style: none;
+        display: inline;
+        line-height: 120px;
+        padding-left: 50px;
+    }
+    .nav_bar .menu ul li a{
+        text-decoration: none;
+        color: #54524f;
+        font-family: open sans;
+        font-size: 17px;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+    .nav_bar .menu ul li input{
+        width: 100px;
+        height: 30px;
+        font-size: 18px;
+        border-radius: 15px;
+        border: none;
+        background-color: #c3bfbc;
+    }
+    .nav_bar .menu ul i{
+        position: absolute;
+        top: 52px;
+        right: 230px;
+    }
+    /* ...............NAV_BAR ENDS HERE................ */
+    .about_card{
+        width: 100%;
+        height: 800px;
+        background: url("../images/bg1.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%  ;
+        padding-left: 150px;
+        font-family: open sans;
+        padding-top: 160px;
+    }
+    .about_card h1{
+        margin: 0;
+        font-size: 90px;
+        color: #deb37e;
+        text-shadow: 2px -3px 5px #a9a7a4;
+        font-weight: 900;
+    }
+    .about_card h3{
+        margin-top: 0px;
+        line-height: 30px;
+        font-size: 20px;
+        color: #54524f;
+        letter-spacing: 2px;
+        word-spacing: 5px;
+    }
+    .about_card button{
+        color: #776c64;
+        font-size: 25px;
+        margin-top: 30px;
+        padding: 10px 20px;
+        border-radius: 18px;
+        border: none;
+        font-weight: 600;
+    }
+    .about_card p{
+        font-size: 16px;
+        letter-spacing: 1px;
+        color: #54524f;
+        font-weight: 400;
+        font-family: "Open Sans";
+    }
+    /* ......................ABOUT_CARD ENDS HERE.................. */
+    
+    .programs{
+        width: 100%;
+        height: 1100px;
+        background-color: white;
+        text-align: center;
+        font-family: "Open Sans";
+        padding-top: 50px;
+    }
+    .programs h1{
+        margin: 0;
+        font-size: 63px;
+        color: #e2a355;
+        font-weight: 800;
+        letter-spacing: 2px;   
+    }
+    .programs p{
+        margin: 0;
+        margin-top: 40px;
+        font-size: 25px;
+        color: #54524f;
+    }
+    .programs .various_programs{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        gap: 3%;
+    }
+    .programs .various_programs .treks{
+        width: 340px;
+        height: 530px;
+    }
+    .programs .various_programs .treks .trek_img{
+        width: 340px;
+        height: 300px;
+        background-color: #e2a355;
+        margin-top: 60px;
+    }
+    .programs .various_programs .treks .trek_img img{
+        width: 100%;
+        height: 100%;
+    }
+    .programs .various_programs .treks .trek_info{
+        width: 340px;
+        height: 230px;
+        background-color: #7f7770;
+        padding: 50px 20px;
+        text-align: left;
+    }
+    .programs .various_programs .treks .trek_info h3{
+        margin: 0;
+        font-size: 26px;
+        color: white;
+    }
+    .programs .various_programs .treks .trek_info p{
+        margin: 0;
+        margin-top: 30px;
+        font-size: 20px;
+        color: white;
+    }
+    .programs button{
+        background-color: #7f7770;
+        border: none;
+        margin-top: 40px;
+        font-size: 20px;
+        padding: 15px 60px;
+        border-radius: 50px;
+        color: white;
+        font-weight: 800;
+        letter-spacing: 5px;
+    }
+    
+    /* ..................PROGRAMS ENDS HERE  !!!................ */
+    
+    .sceme_card{
+        width: 100%;
+        height: 1500px;
+        font-family: "Open Sans";
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .sceme_card .grp_img{
+        width: 50%;
+        height: 750px;
+    }
+    .sceme_card .grp_img img{
+        width: 100%;
+        height: 100%;
+    }
+    .sceme_card .offer_1{
+        width: 50%;
+        height: 750px;
+        background-color:#7f7770;
+        padding: 150px 100px 80px 50px;
+    }
+    .sceme_card .offer_1 h1{
+        margin: 0;
+        font-size: 58px;
+        color: white;
+    }
+    .sceme_card .offer_1 p{
+        margin: 0;
+        margin-top: 30px;
+        padding-right: 130px;
+        font-size: 22px;
+        color: white;
+    }
+    .sceme_card .offer_1:nth-child(2n+1){
+        background-color: #deb37e;
+    }
+    .sceme_card .offer_1 button{
+        background-color: #e2a355;
+        border: none;
+        margin-top: 80px;
+        font-size: 20px;
+        padding: 15px 60px;
+        border-radius: 50px;
+        color: white;
+        font-weight: 700;
+        letter-spacing: 5px;
+    }
+    /* ............... SCEME_CARD ENDS HERE............. */
+    
+    .about_hiking{
+        width: 100%;
+        height: 700px;
+        background: url("../images/Hiking_bg.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        text-align: center;
+        padding: 50px 100px;
+        font-family: "Open Sans";
+        color: white;
+    }
+    .about_hiking h1{
+        font-size: 58px;
+        margin-top: 200px;
+    }
+    .about_hiking p{
+        font-size: 22px;
+        padding: 20px 150px;
+    }
+    
+    /* ...............ABOUT HIKING ENDS HERE.................. */
+    .explore{
+        width: 100%;
+        height: 900px;
+        background: url("../images/img2.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        text-align: right;
+        padding-top: 350px;
+        padding-right: 100px;
+        font-family: "Open Sans";
+    }
+    .explore h1{
+        margin: 0;
+        font-size: 70px;
+        font-weight: 900;
+        color: #deb37e;
+        text-shadow: 2px -4px 5px #bec1c2;
+    }
+    .explore h1 span{
+        font-size: 80px;
+        font-style: italic;
+        color: #54524f;
+    }
+    /* ...............EXPLORE ENDS HERE.................. */
+    
+    .overview{
+        width: 100%;
+        height: 740px;
+        background: url("../images/more_info.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        font-family: "Open Sans";
+    }
+    .overview .more_about{
+        width: 100%;
+        height: 400px;
+        padding-top: 150px;
+        display: flex;
+        justify-content: center;
+        gap: 4%;
+    }
+    .overview .more_about .paragraph{
+        width: 350px;
+        height: 200px;
+        padding: 10px 20px;
+    }
+    .overview .more_about .paragraph h1{
+        font-size: 30px;
+        color: #deb37e;
+    }
+    .overview .more_about .paragraph p{
+        font-size: 16px;
+        color: #333d42;
+    }
+    .abstract{
+        width: 100%;
+        height: 340px;
+        text-align: center;
+    }
+    .abstract h1{
+        margin: 0;
+        font-size: 100px;
+        font-weight: 900;
+    }
+    .abstract p{
+        margin: 0;
+        font-size: 20px;
+        font-weight: 600;
+        padding: 10px 450px;
+    }
+    /* ...............OVERVIEW ENDS HERE !!!..................... */
+    .form{
+        width: 100%;
+        height: 800px;
+        background: url("../images/detail_form.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        font-family: "Open Sans";
+        padding: 100px 100px;
+        text-align: center;
+    }
+    .form h1{
+        margin: 0;
+        margin-top: 100px;
+        font-size: 75px;
+        color: white;
+    }
+    .form p{
+        margin: 0;
+        font-size: 24px;
+        padding: 50px 300px;
+        color: #54524f;
+    }
+    .form input{
+        width: 500px;
+        font-size: 18px;
+        padding: 8px 40px;
+        border-radius: 20px;
+        border: none;
+    }
+    .form button{
+        margin-left: -50px;
+        background-color: #54524f;
+        border: none;
+        color: white;
+        font-size: 18px;
+        padding: 8px 40px;
+        border-radius: 20px;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+    
+    /* .................FORMS ENDS HERE !!!.............. */
+    .footer_card{
+        width: 100%;
+        height: 840px;
+        background-image: url("../images/footer_images.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        font-family: "Open Sans";
+        color: white;
+        display: flex;
+        padding-top: 200px;
+    }
+    .footer_card .social_links{
+        width: 40%;
+        height: 500px;
+        padding: 80px 40px;
+        padding-left: 100px;
+    }
+    .footer_card .social_links p{
+        padding-right: 100px;
+        font-size: 22px;
+    }
+    .footer_card .social_links .social_logos{
+        margin-top: 50px;
+        display: flex;
+        gap: 10px;
+    }
+    
+    .footer_card .social_links .social_logos div{
+        background-color: white;
+        color: #7f7770;
+        width: 30px;
+        height: 30px;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+    }
+      .footer_card .contact_links{
+        width: 20%;
+        height: 500px;
+        padding-top: 80px;
+        padding-right: 100px;
+    }
+    .footer_card .contact_links ul{
+        margin: 0;
+        padding: 0;
+    }
+    .footer_card .contact_links ul li{
+        list-style: none;
+        font-size: 24px;
+        line-height: 1.5;
+    }
+    .footer_card .contact_links h3, .social_links h3{
+        font-size: 32px;
+    }
+    
+    /* .................FOOTER_CARD ENDS HERE !!!.................... */
+}
+/* @@@@.....MEDIA QUERY 1500PX ENDS...@@@@ */
